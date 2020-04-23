@@ -11,29 +11,34 @@
     height: 500px;
   }
   
-  #header {
-      height: 70px;
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  header {
+      height: 65px;
       width: 100%;
       background-color: rgba(21, 180, 42, 0.9);
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+
+.logo {
+        width: 124px;
+        margin-top: 20px;        
     }
   
   .header-left {
       float: left;
-      text-align: center;
   }
   
   .header-right {
       float: right;
+      margin-right: -25px;
   }
-  
-  .logo {
-      width: 124px;
-      margin-top: 20px;
-      color: rgb(255, 255, 255);
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 20px;
-  }
-  
+
   .header-right a {
       line-height: 65px;
       padding: 0 25px;
@@ -53,12 +58,12 @@
   }
   
   .menu-icon {
-      color: white;
-      float: right;
-      font-size: 25px;
-      padding: 21px 0;
-      display: none;
-    }
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
   
   #content {
       float: left;
@@ -79,6 +84,7 @@
   }
   
   .team-wrapper {
+    margin-top: 50px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
