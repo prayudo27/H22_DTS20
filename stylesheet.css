@@ -7,16 +7,23 @@ body {
   margin: 0;
   padding: 0;
 }
+
 main{
-    height: 500px;
-    background-image: url("assets/Background\ 2.png");
-    background-size: 700px 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  height: 500px;
+  background-image: url("assets/Background\ 2.png");
+  background-size: 800px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dts {
+  margin-top: 90px;
+  text-align: center;
+}
 
 .content-aside{
   margin-top: 50px;
+  padding: ;
   height: 250px;
 }
 
@@ -25,6 +32,7 @@ main{
   padding: 0 15px;
   margin: 0 auto;
 }
+
 header {
   height: 65px;
   width: 100%;
@@ -73,27 +81,8 @@ header {
   float: right;
 }
 
-#content {
-  float: left;
-  width: 75%;
-}
-
-aside {
-  float: right;
-  width: 25%;
-  padding-left: 20px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 20px;
-  display: :inline-block;
-}
-
 .team-wrapper {
-  margin-top: 25px;
+  margin-top: 200px;
   padding-bottom: 50px;
   background-color: #f7f7f7;
   text-align: center;
@@ -125,6 +114,7 @@ aside {
   margin-top: 5px;
   text-align: center;
   color: white;
+  
 }
 
 .team-list .list img {
@@ -218,8 +208,8 @@ footer p {
 footer {
   text-align:center;
   display: block;
+  margin-top: 500px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.8);
 }
-

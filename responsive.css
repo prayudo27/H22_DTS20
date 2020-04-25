@@ -12,12 +12,10 @@
       margin-bottom:40px;
     }
   
-  /* Tambahkan CSS untuk header-right */
   .header-right{
     display:none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon{
     display: block;
   }
