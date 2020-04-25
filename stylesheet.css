@@ -7,6 +7,13 @@ body {
   margin: 0;
   padding: 0;
 }
+main{
+    height: 500px;
+    background-image: url("assets/Background\ 2.png");
+    background-size: 700px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
 .content-aside{
   margin-top: 50px;
@@ -21,7 +28,7 @@ body {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(21, 180, 42, 0.9);
+  background-color: rgba(73, 89, 237, 1);
   position: fixed;
   top: 0;
   z-index: 10;
@@ -178,7 +185,7 @@ aside {
   position: absolute;
   top: -490px;
   width: 500px;
-  background: linear-gradient(to right, #00cc66 0%, #009900 100%);
+  background: linear-gradient(to right, rgb(87, 97, 185) 0%, #4959edff 100%);
 }
 
 .team-list .list h3 {
@@ -215,3 +222,4 @@ footer {
   padding-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
