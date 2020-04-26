@@ -65,13 +65,12 @@ header {
 }
 
 .header-left {
-  /* margin-left: -150px; */
   float: left;
 }
 
 .header-right {
   float: right;
-  margin-right: -150px;
+  margin-right: -25px;
 }
 
 .header-right a {
@@ -244,7 +243,7 @@ footer {
   align-items: center;
 }
 
-.container {
+.login .container {
   width: 70%;
 }
 
