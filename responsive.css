@@ -3,19 +3,23 @@
     .list{
       margin-bottom:30px;
     }
-    .content-aside {
+    .content {
       width: 100%;
     }
-    .content-aside h1 {
+    .content h1 {
       font-size: 32px;
-      line-height: 20px;
+      line-height: 30px;
     }
-    .content-aside p {
+    .content p {
       font-size: 20px;
       line-height: 20px;
     }
-  
+
+  .login_content{
+    width: 50%;
   }
+
+}
   
   /* Untuk Smartphone */
 @media all and (max-width: 670px) {
@@ -31,19 +35,23 @@
     display: block;
   }
 
-  .content-aside {
+  .login_content{
+    width: 100%;
+  }
+
+  .content {
     text-align: left;
     width: 100%;
     padding-top: 60px;
-    height: 600px;
+    height: 750px;
   }
 
-  .content-aside h1 {
+  .content h1 {
     font-size: 24px;
     line-height: 20px;
   }
   
-  .content-aside p {
+  .content p {
     font-size: 14px;
     line-height: 17px;
   }
