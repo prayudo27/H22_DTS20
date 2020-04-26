@@ -70,7 +70,7 @@ header {
 
 .header-right {
   float: right;
-  margin-right: -25px;
+  margin-right: -150px;
 }
 
 .header-right a {
@@ -243,7 +243,7 @@ footer {
   align-items: center;
 }
 
-.login .container {
+.container {
   width: 70%;
 }
 
