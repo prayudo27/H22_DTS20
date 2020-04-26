@@ -7,22 +7,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-main{
-  height: 545px;
-  background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
-  background-size: cover;
-  color: white;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-}
-
-/* .dts {
-  margin-top: 90px;
-  text-align: center;
-  
-} */
-
 .content{
   background-image: url("https://prog-8.com/images/html/advanced/top_en.png");
   background-size: cover;
@@ -30,22 +14,18 @@ main{
   padding: 50px 0 100px 0;
   height: 400px;
   text-align: center;
-  height: 600px;
+  height: 500px;
 }
-
-
 .content h1 {
   opacity: 0.93;
   font-size: 45px;
   letter-spacing: 3px;
 }
-
 .content p {
   margin-top: 50px;
   opacity: 0.9;
   font-size: 17px;
 }
-
 .container {
   width: 100%;
   padding: 0 15px;
@@ -66,7 +46,6 @@ header {
 }
 
 .header-left {
-  /* margin-left: -150px; */
   float: left;
 }
 
@@ -233,52 +212,7 @@ footer {
 
 /* End index.html */
 
-/* Start login.html */
-/*
-.login {
-  display: flex;
-  height: 70vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.login .container {
-  width: 70%;
-}
-
-.form-input {
-  margin: 20px auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-
-.form-input .iconify {
-  padding: 10px;
-  color: #cccccc;
-  font-size: 50px;
-  position: absolute;
-  top: 18px;
-  left: 20px;
-}
-
-.form-input input {
-  font-family: 'Poppins';
-  width: 100%;
-  border: 2px solid #eeeeee;
-  padding: 20px 15px 20px 80px;
-  display: block;
-  font-size: 30px;
-  outline: none;
-  border-radius: 15px;
-}
-
-.form-input input:focus {
-  border: 2px solid #0779e4;
-}
-*/
-
+/* Login.html */
 .title_login{
   text-align: center;
   text-transform: uppercase;
@@ -319,6 +253,13 @@ label{
   border: none;
   border-radius: 3px;
   padding-top: 10px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px rgb(29, 73, 116);
+}
+.submit_login:active {
+  box-shadow: none;
+  position: relative;
+  top: 4px;
 }
  
 .back_login{
@@ -331,6 +272,13 @@ label{
   border-radius: 3px;
   padding: 10px 20px;
   text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px #641913;
+}
+.back_login:active {
+  box-shadow: none;
+  position: relative;
+  top: 4px;
 }
 
 .login_content input {
@@ -385,6 +333,12 @@ label{
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.contact input[type=submit]:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
 }
 
 .contact textarea {
@@ -417,7 +371,7 @@ label{
 .kontak h1 {
   font-weight: normal;
 }
-
+/* end contct us */
 
 #home{
   background-color: #f2f2f2;
@@ -431,5 +385,3 @@ label{
   background-color: #f2f2f2;
   height: 65px;
 }
-
-/* end contct us */
