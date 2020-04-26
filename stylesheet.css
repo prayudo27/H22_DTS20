@@ -334,6 +334,7 @@ label{
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
+  font-size: 14pt;
 }
 .contact input[type=submit]:active {
   box-shadow: none;
